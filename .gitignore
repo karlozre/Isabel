@@ -1,0 +1,25 @@
+# === Carpeta de compilación ===
+/backend/build/
+/build/
+/out/
+
+# === Archivos compilados Java ===
+*.class
+
+# === SQL Server ===
+*.mdf
+*.ldf
+*.ndf
+
+# === Configuraciones locales / IDE ===
+.vscode/
+Thumbs.db
+.DS_Store
+
+# === Variables privadas / archivos locales ===
+*.env
+*.local
+config.properties
+
+# === Dependencias externas ===
+node_modules/
