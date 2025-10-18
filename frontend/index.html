@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Barra lateral (Sidebar) -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html"><img src="home-icon.svg" alt="Inicio"></a></li>
+                <li><a href="pagina2.html"><img src="heart-rate-icon.svg" alt="Oxigenación y Pulso"></a></li>
+                <li><a href="pagina3.html"><img src="dna-icon.svg" alt="Proteínas"></a></li>
+                <li><a href="pagina4.html"><img src="heart-bpm-icon.svg" alt="Glucosa"></a></li>
+                <li><a href="pagina5.html"><img src="heart-bpm-icon.svg" alt="Confg"></a></li>
+            </ul>
+        </nav>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+
+            <!-- Barra superior -->
+            <nav class="navbar">
+                <div class="logo">Isabel</div>
+                <ul class="nav-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#propiedades">Ayuda</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Sección principal -->
+            <section id="hero">
+                <h1>Isabel</h1>
+                <p>Monitoreo remoto de tu embarazo</p>
+                <button class="cta-button">Ver más</button> 
+            </section>
+
+            <section id="propiedades">
+                <h2>Registro de Monitoreo</h2>
+                <div class="propiedades-grid">
+
+                    <div class="propiedades-card">
+                        <img src="" alt="Oxigenación y Pulso">
+                        <h3>Oxigenación y Pulso</h3>
+                        <p class="descripcion">La oxigenación es...</p>
+                        <button>Ver más</button>
+                    </div>
+
+                    <div class="propiedades-card">
+                        <img src="" alt="Glucosa">
+                        <h3>Glucosa</h3>
+                        <p class="descripcion">La glucosa en sangre es...</p>
+                        <button>Ver más</button>
+                    </div>
+
+                    <div class="propiedades-card">
+                        <img src="" alt="Proteína">
+                        <h3>Proteína</h3>
+                        <p class="descripcion">La proteína en orina es...</p>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <footer>
+                <p>&copy; Isabel, Todos los derechos reservados</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

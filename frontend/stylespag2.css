@@ -1,0 +1,70 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal que tiene el sidebar y el contenido */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilos de la barra lateral (sidebar) */
+.sidebar {
+    width: 80px;
+    background-color: #D8F5B6; /* Color de fondo verde claro */
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.header {
+    background-color: #D8F5B6; /* Fondo verde claro */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+}
+
+.header p {
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Ajustes de diseño adicional */
+.content {
+    padding: 20px;
+}
